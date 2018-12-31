@@ -1,0 +1,38 @@
+{
+  "name": "learning-path-manager",
+  "version": "1.0.0",
+  "description": "playground",
+  "private": true,
+  "license": "Private. SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "Matthias Ludwig",
+    "email": "mludwig@quobject.io"
+  },
+  "main": "./dist/main.js",
+  "scripts": {
+    "clean": "./node_modules/.bin/del ./dist/",
+    "lint": "tslint --project .",
+    "compile": "tsc",
+    "build": "npm run clean && npm run compile",
+    "build1": "npm run lint && npm run clean && npm run compile",
+    "test": "node ./spec/runjasmine.js",
+    "test1": "nodemon --watch ./dist ./spec/runjasmine.js"
+  },
+  "devDependencies": {
+    "@types/jasmine": "3.3.4",
+    "@types/node": "10.10.1",
+    "del-cli": "^1.1.0",
+    "jasmine": "^2.6.0",
+    "jasmine-pretty-html-reporter": "^0.2.5",
+    "onchange": "^4.1.0",
+    "ts-node": "7.0.1",
+    "tslint": "5.12.0",
+    "typescript": "^3.0.1",
+    "xunit-viewer": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/debug": "0.0.30",
+    "debug": "^3.1.0",
+    "reload": "^2.4.0"
+  }
+}

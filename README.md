@@ -18,4 +18,14 @@ A quobject learning path is a README.md markdown document inside a public github
 
   * [US English](index/en-US/index.md)   
   * [UK English](index/en-GB/index.md)   
+  * [Australian English](index/en-AU/index.md)   
+  * [Canadian English](index/en-CA/index.md)   
+  * [Española Europea](index/es-ES/index.md)   
+  * [Español Mexicano](index/es-MX/index.md)   
+  * [Français](index/fr-FR/index.md)   
+  * [Canadienne Française](index/fr-CA/index.md)   
+  * [Swiss Français](index/fr-CH/index.md)   
+  * [Deutsch](index/de-DE/index.md)   
+  * [Italiano](index/it-IT/index.md)   
+  * [日本語](index/ja-JP/index.md)   
 

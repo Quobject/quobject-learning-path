@@ -15,5 +15,7 @@ A quobject learning path is a README.md markdown document inside a public github
 - Click on README.md and edit document
 - Add your repository to the quobject-learning-path index:
   - select your language index.md document and add your github repository url at the bottom of the document using a pull request:
-    [US English](index/en-US/index.md)
+
+  * [US English](index/en-US/index.md)   
+  * [UK English](index/en-GB/index.md)   
 
